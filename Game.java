@@ -20,12 +20,12 @@ import java.io.*;
 	
 		
 		public Game(int num) {
-		initializer();
-		bombMaker(num);
-		bombVicinityCounter();
-		lost = false;
-		
-
+			
+			initializer();
+			bombMaker(num);
+			bombVicinityCounter();
+			lost = false;
+			
 		}
 		
 		public void initializer() {
