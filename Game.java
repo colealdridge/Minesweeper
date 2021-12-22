@@ -9,13 +9,13 @@ import java.io.*;
 
 	public class Game implements Serializable {
 	
-	public int bombNum = 8;
+	private int bombNum = 8;
 	final static int boardSize = 10;
-	public int[][] board = new int[boardSize][boardSize];
-	public int[][] eventCount = new int[boardSize][boardSize];
-	public int[][] used = new int[boardSize][boardSize];
-	public boolean bomb[][] = new boolean[10][10];
-	public boolean flag[][] = new boolean[10][10];
+	private int[][] board = new int[boardSize][boardSize];
+	private int[][] eventCount = new int[boardSize][boardSize];
+	private int[][] used = new int[boardSize][boardSize];
+	private boolean bomb[][] = new boolean[10][10];
+	private boolean flag[][] = new boolean[10][10];
 	public boolean lost;
 	
 	
