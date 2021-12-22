@@ -5,22 +5,15 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 public class MinesweeperPanel extends JPanel implements Serializable {
 	
 	private Game game = new Game(8);
 	public static JMenuBar MenuBar = new JMenuBar();
 	private JButton[][] squares = new JButton[10][10];
-	public int row = 0;
-	public int col = 0;
-	public int count = 0;
-	public JFileChooser fc = new JFileChooser();
+	private int row = 0;
+	private int col = 0;
+	private int count = 0;
+	private JFileChooser fc = new JFileChooser();
 
 	public MinesweeperPanel(MinesweeperFrame frame) {
 		
